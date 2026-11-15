@@ -1,42 +1,29 @@
-команды #2 · 2026-11-15 13:01:46 · сборка 125
-say A/B ЗАМЕР ~3 МИН — НЕ ТРОГАЙ → показано
-wait 3 → ок
+команды #3 · 2026-11-15 13:06:25 · сборка 125
+say ТЕСТ 2: ТЯЖЁЛЫЙ БОЙ ~2 МИН — НЕ ТРОГАЙ → показано
 fps 8 → замер
 wait 9.5 → ок
-set sharpen 0 → резкость False
+all1km → врагов в 1 км: 6
+wait 20 → ок
+shot все враги рядом → метка
 fps 8 → замер
 wait 9.5 → ок
-set sharpen 1 → резкость True
+set crew 0 → экипаж False
 fps 8 → замер
 wait 9.5 → ок
-set fortress 0 → крепость видна False
+set crew 1 → экипаж True
 fps 8 → замер
 wait 9.5 → ок
-set fortress 1 → крепость видна True
+set lod 0 → лёгкие модели False
 fps 8 → замер
 wait 9.5 → ок
-set shadows 0 → тени Disable
+set lod 1 → лёгкие модели True
 fps 8 → замер
 wait 9.5 → ок
-set shadows 2 → тени All
+set clouds 1 → объёмные облака True
 fps 8 → замер
 wait 9.5 → ок
-set fx 0 → эффекты False
+set clouds 0 → объёмные облака False
 fps 8 → замер
 wait 9.5 → ок
-set fx 1 → эффекты True
-fps 8 → замер
-wait 9.5 → ок
-set post 0 → пост False
-fps 8 → замер
-wait 9.5 → ок
-set post 1 → пост True
-fps 8 → замер
-wait 9.5 → ок
-set sharpen 0 → резкость False
-fps 8 → замер
-wait 9.5 → ок
-set sharpen 1 → резкость True
-fps 8 → замер
-wait 9.5 → ок
-say A/B ГОТОВО, ИГРАЙ → показано
+report → отчёт отправлен
+say ТЕСТ ГОТОВ, ИГРАЙ → показано
