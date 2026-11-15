@@ -1,114 +1,137 @@
-команды #6 · 2026-11-15 14:22:27 · сборка 129
-say ИГРАЮ 5 МИНУТ — НЕ ТРОГАЙ → показано
-auto on → автобой вкл
-wait 60 → ок
-photo автобой 1 мин → снимок
+команды #8 · 2026-11-15 14:49:00 · сборка 132
+wait 20 → ок
+tap row 0 → нажато row 0
 wait 1 → ок
-fps 8 → замер
-wait 9.5 → ок
+say ИГРАЮ ~7 МИНУТ — НЕ ТРОГАЙ → показано
+auto on → автобой вкл
+snap 5 → снимок каждые 5 с
+view 60 20 110 2 → камера: угол 60 наклон 20 дист 110
+wait 3 → ок
+spin 360 10 → облёт 360°
+wait 11 → ок
+view 0 12 60 2 → камера: угол 0 наклон 12 дист 60
+wait 25 → ок
+view -90 30 140 2 → камера: угол -90 наклон 30 дист 140
+wait 20 → ок
 auto off → автобой выкл
 tap gear 4 → ход 4
 go near 0 0.9 → к near
+view 90 10 90 2 → камера: угол 90 наклон 10 дист 90
 wait 6 → ок
 tap left → нажато left
+wait 0.3 → ок
+burst 12 0.15 залп 1 → серия 12 кадров
 wait 1.5 → ок
+tap right → нажато right
+wait 2 → ок
+view -90 14 80 2 → камера: угол -90 наклон 14 дист 80
 tap right → нажато right
 wait 1.5 → ок
 tap left → нажато left
-wait 1.5 → ок
-tap right → нажато right
-wait 1.5 → ок
+wait 2 → ок
+spin 180 6 → облёт 180°
 tap left → нажато left
 wait 1.5 → ок
 tap right → нажато right
-wait 1.5 → ок
-tap left → нажато left
-wait 1.5 → ок
-tap right → нажато right
-wait 1.5 → ок
-photo ручной бой 1 → снимок
-wait 1 → ок
-go near 0 0.9 → к near
-wait 6 → ок
-tap left → нажато left
-wait 1.5 → ок
-tap right → нажато right
-wait 1.5 → ок
-tap left → нажато left
-wait 1.5 → ок
-tap right → нажато right
-wait 1.5 → ок
-tap left → нажато left
-wait 1.5 → ок
-tap right → нажато right
-wait 1.5 → ок
-tap left → нажато left
-wait 1.5 → ок
-tap right → нажато right
-wait 1.5 → ок
-photo ручной бой 2 → снимок
-wait 1 → ок
-go near 0 0.9 → к near
-wait 6 → ок
-tap left → нажато left
-wait 1.5 → ок
-tap right → нажато right
-wait 1.5 → ок
-tap left → нажато left
-wait 1.5 → ок
-tap right → нажато right
-wait 1.5 → ок
-tap left → нажато left
-wait 1.5 → ок
-tap right → нажато right
-wait 1.5 → ок
-tap left → нажато left
-wait 1.5 → ок
-tap right → нажато right
-wait 1.5 → ок
-photo ручной бой 3 → снимок
-wait 1 → ок
-tap ammo → нажато ammo
-go near 0 0.9 → к near
-wait 5 → ок
-tap left → нажато left
-wait 1.5 → ок
-tap right → нажато right
-wait 1.5 → ок
-tap left → нажато left
-wait 1.5 → ок
-tap right → нажато right
-wait 1.5 → ок
-tap ammo → нажато ammo
-tap ripple → нажато ripple
-wait 1 → ок
-tap left → нажато left
-wait 1.5 → ок
-tap right → нажато right
-wait 1.5 → ок
-tap ripple → нажато ripple
-tap spy → нажато spy
-wait 3 → ок
-photo труба → снимок
-wait 1 → ок
-tap spy → нажато spy
-pilot heading 0 1 → курс 0
-wait 8 → ок
-pilot heading 180 0.6 → курс 180
-wait 8 → ок
-pilot stop → стоп
 wait 4 → ок
-pilot release → управление владельцу
-tap gear 3 → ход 3
-go berth 0 1 → к berth
-wait 20 → ок
-photo к причалу → снимок
+go near 0 0.9 → к near
+view 90 10 90 2 → камера: угол 90 наклон 10 дист 90
+wait 6 → ок
+tap left → нажато left
+wait 0.3 → ок
+burst 12 0.15 залп 2 → серия 12 кадров
+wait 1.5 → ок
+tap right → нажато right
+wait 2 → ок
+view -90 14 80 2 → камера: угол -90 наклон 14 дист 80
+tap right → нажато right
+wait 1.5 → ок
+tap left → нажато left
+wait 2 → ок
+spin 180 6 → облёт 180°
+tap left → нажато left
+wait 1.5 → ок
+tap right → нажато right
+wait 4 → ок
+go near 0 0.9 → к near
+view 90 10 90 2 → камера: угол 90 наклон 10 дист 90
+wait 6 → ок
+tap left → нажато left
+wait 0.3 → ок
+burst 12 0.15 залп 3 → серия 12 кадров
+wait 1.5 → ок
+tap right → нажато right
+wait 2 → ок
+view -90 14 80 2 → камера: угол -90 наклон 14 дист 80
+tap right → нажато right
+wait 1.5 → ок
+tap left → нажато left
+wait 2 → ок
+spin 180 6 → облёт 180°
+tap left → нажато left
+wait 1.5 → ок
+tap right → нажато right
+wait 4 → ок
+tap ammo → нажато ammo
+go near 0 0.9 → к near
+view 30 25 120 2 → камера: угол 30 наклон 25 дист 120
+wait 4 → ок
+tap left → нажато left
+wait 1.5 → ок
+tap right → нажато right
+wait 1.5 → ок
+tap ammo → нажато ammo
+tap ripple → нажато ripple
+tap left → нажато left
+wait 1.5 → ок
+tap right → нажато right
+wait 1.5 → ок
+tap ripple → нажато ripple
+tap spy → нажато spy
+wait 2.5 → ок
+photo full труба → снимок
+fps 8 → замер
+wait 9.5 → ок
+tap spy → нажато spy
 wait 1 → ок
 pilot release → управление владельцу
 auto on → автобой вкл
-wait 45 → ок
-photo автобой финал → снимок
+view 0 14 62 2 → камера: угол 0 наклон 14 дист 62
+wait 30 → ок
+spin 360 12 → облёт 360°
+wait 13 → ок
+snap 0 → снимки по таймеру выкл
+hud 0 → HUD скрыт
+cam height 8 → высота взгляда 8
+cam orbit me 0 6 90 → орбита me
 wait 1 → ок
-fps 8 → замер
-wait 9.5 → ок
+photo full обл 0 → снимок
+wait 1 → ок
+set sprites 0 → рисованные облака-спрайты False
+wait 0.5 → ок
+photo full обл 0 без спрайтов → снимок
+wait 1 → ок
+set sprites 1 → рисованные облака-спрайты True
+set sea 0 → рисованное море облаков False
+wait 0.5 → ок
+photo full обл 0 без моря → снимок
+wait 1 → ок
+set sea 1 → рисованное море облаков True
+cam orbit me 315 6 90 → орбита me
+wait 1 → ок
+photo full обл 315 → снимок
+wait 1 → ок
+set sprites 0 → рисованные облака-спрайты False
+wait 0.5 → ок
+photo full обл 315 без спрайтов → снимок
+wait 1 → ок
+set sprites 1 → рисованные облака-спрайты True
+set sea 0 → рисованное море облаков False
+wait 0.5 → ок
+photo full обл 315 без моря → снимок
+wait 1 → ок
+set sea 1 → рисованное море облаков True
+cam off → камера обычная
+hud 1 → HUD виден
+auto on → автобой вкл
 report → отчёт отправлен
