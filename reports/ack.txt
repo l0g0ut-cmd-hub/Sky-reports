@@ -1,115 +1,114 @@
-команды #5 · 2026-11-15 14:15:51 · сборка 129
-say СДЕЛАЙ СКРИНШОТ ЭКРАНА ЧЕРЕЗ 10 С → показано
-wait 10 → ок
-photo full сверка цвета (как у владельца) → снимок
+команды #6 · 2026-11-15 14:22:27 · сборка 129
+say ИГРАЮ 5 МИНУТ — НЕ ТРОГАЙ → показано
+auto on → автобой вкл
+wait 60 → ок
+photo автобой 1 мин → снимок
 wait 1 → ок
-god on → бессмертие вкл
-all1km → врагов в 1 км: 18
-wait 12 → ок
 fps 8 → замер
 wait 9.5 → ок
-set far 100 → дальний уровень ×20
-fps 8 → замер
-wait 9.5 → ок
-set far 1 → дальний уровень ×1
-fps 8 → замер
-wait 9.5 → ок
-set far 0.5 → дальний уровень ×0,5
-fps 8 → замер
-wait 9.5 → ок
-set far 1 → дальний уровень ×1
-photo full бой 18 рядом → снимок
-wait 1 → ок
-hud 0 → HUD скрыт
-cam height 8 → высота взгляда 8
-cam orbit me 0 6 90 → орбита me
-wait 1 → ок
-photo full облака 0 → снимок
-wait 1 → ок
-cam orbit me 45 6 90 → орбита me
-wait 1 → ок
-photo full облака 45 → снимок
-wait 1 → ок
-cam orbit me 90 6 90 → орбита me
-wait 1 → ок
-photo full облака 90 → снимок
-wait 1 → ок
-cam orbit me 135 6 90 → орбита me
-wait 1 → ок
-photo full облака 135 → снимок
-wait 1 → ок
-cam orbit me 180 6 90 → орбита me
-wait 1 → ок
-photo full облака 180 → снимок
-wait 1 → ок
-cam orbit me 225 6 90 → орбита me
-wait 1 → ок
-photo full облака 225 → снимок
-wait 1 → ок
-cam orbit me 270 6 90 → орбита me
-wait 1 → ок
-photo full облака 270 → снимок
-wait 1 → ок
-cam orbit me 315 6 90 → орбита me
-wait 1 → ок
-photo full облака 315 → снимок
-wait 1 → ок
-cam off → камера обычная
-hud 1 → HUD виден
 auto off → автобой выкл
-wait 1 → ок
-tap auto → нажато auto
-wait 40 → ок
-photo автобой 40 с → снимок
-wait 1 → ок
-tap auto → нажато auto
 tap gear 4 → ход 4
-wait 3 → ок
-pilot heading 90 0.9 → курс 90
-wait 8 → ок
-pilot release → управление владельцу
-tap gear 3 → ход 3
-wait 2 → ок
+go near 0 0.9 → к near
+wait 6 → ок
+tap left → нажато left
+wait 1.5 → ок
+tap right → нажато right
+wait 1.5 → ок
+tap left → нажато left
+wait 1.5 → ок
+tap right → нажато right
+wait 1.5 → ок
+tap left → нажато left
+wait 1.5 → ок
+tap right → нажато right
+wait 1.5 → ок
+tap left → нажато left
+wait 1.5 → ок
+tap right → нажато right
+wait 1.5 → ок
+photo ручной бой 1 → снимок
+wait 1 → ок
+go near 0 0.9 → к near
+wait 6 → ок
+tap left → нажато left
+wait 1.5 → ок
+tap right → нажато right
+wait 1.5 → ок
+tap left → нажато left
+wait 1.5 → ок
+tap right → нажато right
+wait 1.5 → ок
+tap left → нажато left
+wait 1.5 → ок
+tap right → нажато right
+wait 1.5 → ок
+tap left → нажато left
+wait 1.5 → ок
+tap right → нажато right
+wait 1.5 → ок
+photo ручной бой 2 → снимок
+wait 1 → ок
+go near 0 0.9 → к near
+wait 6 → ок
+tap left → нажато left
+wait 1.5 → ок
+tap right → нажато right
+wait 1.5 → ок
+tap left → нажато left
+wait 1.5 → ок
+tap right → нажато right
+wait 1.5 → ок
+tap left → нажато left
+wait 1.5 → ок
+tap right → нажато right
+wait 1.5 → ок
+tap left → нажато left
+wait 1.5 → ок
+tap right → нажато right
+wait 1.5 → ок
+photo ручной бой 3 → снимок
+wait 1 → ок
+tap ammo → нажато ammo
+go near 0 0.9 → к near
+wait 5 → ок
+tap left → нажато left
+wait 1.5 → ок
+tap right → нажато right
+wait 1.5 → ок
 tap left → нажато left
 wait 1.5 → ок
 tap right → нажато right
 wait 1.5 → ок
 tap ammo → нажато ammo
+tap ripple → нажато ripple
 wait 1 → ок
+tap left → нажато left
+wait 1.5 → ок
 tap right → нажато right
 wait 1.5 → ок
-tap ammo → нажато ammo
-wait 0.5 → ок
-tap ripple → нажато ripple
-wait 0.5 → ок
 tap ripple → нажато ripple
 tap spy → нажато spy
-wait 2 → ок
-photo подзорная труба → снимок
+wait 3 → ок
+photo труба → снимок
 wait 1 → ок
 tap spy → нажато spy
+pilot heading 0 1 → курс 0
+wait 8 → ок
+pilot heading 180 0.6 → курс 180
+wait 8 → ок
+pilot stop → стоп
+wait 4 → ок
+pilot release → управление владельцу
+tap gear 3 → ход 3
+go berth 0 1 → к berth
+wait 20 → ок
+photo к причалу → снимок
 wait 1 → ок
-tap radar → нажато radar
-wait 1 → ок
-photo радар ближний → снимок
-wait 1 → ок
-tap radar → нажато radar
-tap pause → нажато pause
-wait 1.5 → ок
-photo пауза → снимок
-wait 1 → ок
-tap row 3 → нажато row 3
-wait 1 → ок
-photo крупные кнопки → снимок
-wait 1 → ок
-tap row 3 → нажато row 3
-wait 1 → ок
-tap row 0 → нажато row 0
-wait 1 → ок
-tap fps → нажато fps
-wait 2 → ок
-tap fps → нажато fps
-wait 1 → ок
-god off → бессмертие выкл
+pilot release → управление владельцу
 auto on → автобой вкл
+wait 45 → ок
+photo автобой финал → снимок
+wait 1 → ок
+fps 8 → замер
+wait 9.5 → ок
 report → отчёт отправлен
