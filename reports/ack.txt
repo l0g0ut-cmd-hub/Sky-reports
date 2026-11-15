@@ -1,125 +1,40 @@
-команды #21 · 2026-11-15 21:04:59 · сборка 158
-play → меню → В БОЙ
+команды #23 · 2026-11-16 01:28:04 · сборка 166
+play → уже в бою
 wait 6 → ок
-say ПРОВЕРКА ПРИЦЕЛА И ТРУБЫ ~7 МИН — НЕ ТРОГАЙ → показано
+say ПРОВЕРКА ~8 МИН — НЕ ТРОГАЙ, ОТМЕНА КНОПКОЙ → показано
 wait 2 → ок
 repair → флагман 100%
 hud 1 → HUD виден
-photo full гуи бой → снимок
+photo full гуи общий → снимок
 wait 2 → ок
+tap gear 0 → ход 0
+wait 1.5 → ок
+photo full телеграф 0 → снимок
+wait 1.5 → ок
+tap gear 1 → ход 1
+wait 1.5 → ок
+photo full телеграф 1 → снимок
+wait 1.5 → ок
+tap gear 2 → ход 2
+wait 1.5 → ок
+photo full телеграф 2 → снимок
+wait 1.5 → ок
 tap gear 3 → ход 3
 wait 1.5 → ок
-photo full телеграф средний → снимок
-wait 2 → ок
+photo full телеграф 3 → снимок
+wait 1.5 → ок
+tap gear 4 → ход 4
+wait 1.5 → ок
+photo full телеграф 4 → снимок
+wait 1.5 → ок
+tap gear 3 → ход 3
+wait 1 → ок
 near → Target Ship на траверзе
 go near 0 0.6 → к near
 wait 8 → ок
-photo full без цели — стрелки нет 0 → снимок
+photo full без цели 0 → снимок
 wait 1 → ок
 lock near → цель: Target Ship
 duel near → бой с near
-wait 8 → ок
-view 90 14 85 0.8 → камера: угол 90 наклон 14 дист 85
-wait 2 → ок
-burst 6 0.25 стрелка взятая цель 0 → серия 6 кадров
-wait 2 → ок
-tap right → нажато right
-wait 1 → ок
-photo full залп 0 → снимок
-wait 2 → ок
-view 0 14 62 0.8 → камера: угол 0 наклон 14 дист 62
-wait 2 → ок
-photo full рамка цели 0 → снимок
-wait 1 → ок
-tap spy → нажато spy
-wait 2.5 → ок
-photo full труба цель 0 → снимок
-fps 6 → замер
-wait 7 → ок
-tap spy → нажато spy
-wait 1 → ок
-lock off → цель снята
-pilot release → управление владельцу
-auto on → автобой вкл
-wait 25 → ок
-photo full автобой 0 → снимок
-wait 1 → ок
-auto off → автобой выкл
-repair → флагман 100%
-near → Raider Ship на траверзе
-go near 0 0.6 → к near
-wait 8 → ок
-photo full без цели — стрелки нет 1 → снимок
-wait 1 → ок
-lock near → цель: Target Ship
-duel near → бой с near
-wait 8 → ок
-view 90 14 85 0.8 → камера: угол 90 наклон 14 дист 85
-wait 2 → ок
-burst 6 0.25 стрелка взятая цель 1 → серия 6 кадров
-wait 2 → ок
-tap right → нажато right
-wait 1 → ок
-photo full залп 1 → снимок
-wait 2 → ок
-view 0 14 62 0.8 → камера: угол 0 наклон 14 дист 62
-wait 2 → ок
-photo full рамка цели 1 → снимок
-wait 1 → ок
-tap spy → нажато spy
-wait 2.5 → ок
-photo full труба цель 1 → снимок
-fps 6 → замер
-wait 7 → ок
-tap spy → нажато spy
-wait 1 → ок
-lock off → цель снята
-pilot release → управление владельцу
-auto on → автобой вкл
-wait 25 → ок
-photo full автобой 1 → снимок
-wait 1 → ок
-auto off → автобой выкл
-repair → флагман 100%
-near → Enemy 10 на траверзе
-go near 0 0.6 → к near
-wait 8 → ок
-photo full без цели — стрелки нет 2 → снимок
-wait 1 → ок
-lock near → цель: Enemy 10
-duel near → бой с near
-wait 8 → ок
-view 90 14 85 0.8 → камера: угол 90 наклон 14 дист 85
-wait 2 → ок
-burst 6 0.25 стрелка взятая цель 2 → серия 6 кадров
-wait 2 → ок
-tap right → нажато right
-wait 1 → ок
-photo full залп 2 → снимок
-wait 2 → ок
-view 0 14 62 0.8 → камера: угол 0 наклон 14 дист 62
-wait 2 → ок
-photo full рамка цели 2 → снимок
-wait 1 → ок
-tap spy → нажато spy
-wait 2.5 → ок
-photo full труба цель 2 → снимок
-fps 6 → замер
-wait 7 → ок
-tap spy → нажато spy
-wait 1 → ок
-lock off → цель снята
-pilot release → управление владельцу
-auto on → автобой вкл
-wait 25 → ок
-photo full автобой 2 → снимок
-wait 1 → ок
-auto off → автобой выкл
-repair → флагман 100%
-tap pause → нажато pause
-wait 1.5 → ок
-photo full меню паузы → снимок
-wait 1 → ок
-tap row 0 → нажато row 0
-snap 0 → снимки по таймеру выкл
-report → отчёт отправлен
+wait 6 → ок
+ОТМЕНЕНО владельцем на: photo full рамка и упреждение 0
