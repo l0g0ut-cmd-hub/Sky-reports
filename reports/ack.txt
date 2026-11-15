@@ -1,163 +1,125 @@
-команды #19 · 2026-11-15 19:38:50 · сборка 149
-say ЕСЛИ В МЕНЮ — НАЖМИ «В БОЙ». ДАЛЬШЕ НЕ ТРОГАЙ → показано
-wait 15 → ок
-tap row 0 → нажато row 0
+команды #21 · 2026-11-15 20:18:27 · сборка 155
+play → меню → В БОЙ
+wait 6 → ок
+say ПРОВЕРКА ПРИЦЕЛА И ТРУБЫ ~7 МИН — НЕ ТРОГАЙ → показано
 wait 2 → ок
-say ПРОВЕРКА ГУИ, ТРУБЫ И ПРИЦЕЛА ~9 МИН → показано
-wait 2 → ок
+repair → флагман 100%
 hud 1 → HUD виден
 photo full гуи бой → снимок
 wait 2 → ок
-tap gear 0 → ход 0
+tap gear 3 → ход 3
 wait 1.5 → ок
-photo full телеграф назад → снимок
+photo full телеграф средний → снимок
 wait 2 → ок
-tap gear 2 → ход 2
-wait 1.5 → ок
-photo full телеграф малый → снимок
+near → Target Ship на траверзе
+go near 0 0.6 → к near
+wait 8 → ок
+photo full без цели — стрелки нет 0 → снимок
+wait 1 → ок
+lock near → цель: Target Ship
+duel near → бой с near
+wait 8 → ок
+view 90 14 85 0.8 → камера: угол 90 наклон 14 дист 85
 wait 2 → ок
-tap gear 4 → ход 4
-wait 1.5 → ок
-photo full телеграф полный → снимок
+burst 6 0.25 стрелка взятая цель 0 → серия 6 кадров
 wait 2 → ок
+tap right → нажато right
+wait 1 → ок
+photo full залп 0 → снимок
+wait 2 → ок
+view 0 14 62 0.8 → камера: угол 0 наклон 14 дист 62
+wait 2 → ок
+photo full рамка цели 0 → снимок
+wait 1 → ок
 tap spy → нажато spy
-wait 1.5 → ок
-photo full труба кнопка → снимок
-wait 2 → ок
+wait 2.5 → ок
+photo full труба цель 0 → снимок
+fps 6 → замер
+wait 7 → ок
 tap spy → нажато spy
 wait 1 → ок
+lock off → цель снята
+pilot release → управление владельцу
+auto on → автобой вкл
+wait 25 → ок
+photo full автобой 0 → снимок
+wait 1 → ок
+auto off → автобой выкл
+repair → флагман 100%
+near → Target Ship на траверзе
+go near 0 0.6 → к near
+wait 8 → ок
+photo full без цели — стрелки нет 1 → снимок
+wait 1 → ок
+lock near → цель: Enemy 9
+duel near → бой с near
+wait 8 → ок
+view 90 14 85 0.8 → камера: угол 90 наклон 14 дист 85
+wait 2 → ок
+burst 6 0.25 стрелка взятая цель 1 → серия 6 кадров
+wait 2 → ок
+tap right → нажато right
+wait 1 → ок
+photo full залп 1 → снимок
+wait 2 → ок
+view 0 14 62 0.8 → камера: угол 0 наклон 14 дист 62
+wait 2 → ок
+photo full рамка цели 1 → снимок
+wait 1 → ок
+tap spy → нажато spy
+wait 2.5 → ок
+photo full труба цель 1 → снимок
+fps 6 → замер
+wait 7 → ок
+tap spy → нажато spy
+wait 1 → ок
+lock off → цель снята
+pilot release → управление владельцу
+auto on → автобой вкл
+wait 25 → ок
+photo full автобой 1 → снимок
+wait 1 → ок
+auto off → автобой выкл
+repair → флагман 100%
+near → Enemy 11 на траверзе
+go near 0 0.6 → к near
+wait 8 → ок
+photo full без цели — стрелки нет 2 → снимок
+wait 1 → ок
+lock near → цель: Enemy 11
+duel near → бой с near
+wait 8 → ок
+view 90 14 85 0.8 → камера: угол 90 наклон 14 дист 85
+wait 2 → ок
+burst 6 0.25 стрелка взятая цель 2 → серия 6 кадров
+wait 2 → ок
+tap right → нажато right
+wait 1 → ок
+photo full залп 2 → снимок
+wait 2 → ок
+view 0 14 62 0.8 → камера: угол 0 наклон 14 дист 62
+wait 2 → ок
+photo full рамка цели 2 → снимок
+wait 1 → ок
+tap spy → нажато spy
+wait 2.5 → ок
+photo full труба цель 2 → снимок
+fps 6 → замер
+wait 7 → ок
+tap spy → нажато spy
+wait 1 → ок
+lock off → цель снята
+pilot release → управление владельцу
+auto on → автобой вкл
+wait 25 → ок
+photo full автобой 2 → снимок
+wait 1 → ок
+auto off → автобой выкл
+repair → флагман 100%
 tap pause → нажато pause
 wait 1.5 → ок
 photo full меню паузы → снимок
-wait 2 → ок
+wait 1 → ок
 tap row 0 → нажато row 0
-wait 1 → ок
-repair → флагман 100%
-auto off → автобой выкл
-fps 6 → замер
-wait 7 → ок
-near → Target Ship на траверзе
-go near 0 0.6 → к near
-wait 6 → ок
-duel near → бой с near
-wait 8 → ок
-tap spy → нажато spy
-wait 2 → ок
-photo full труба с целью 0 → снимок
-wait 2 → ок
-fps 6 → замер
-wait 7 → ок
-photo full труба с целью 2 0 → снимок
-wait 1 → ок
-tap right → нажато right
-wait 2 → ок
-photo full труба залп 0 → снимок
-wait 2 → ок
-tap spy → нажато spy
-wait 2 → ок
-view 90 14 85 0.8 → камера: угол 90 наклон 14 дист 85
-wait 3 → ок
-photo full стрелка траверз 0 → снимок
-wait 2 → ок
-view -90 14 85 0.8 → камера: угол -90 наклон 14 дист 85
-wait 3 → ок
-photo full стрелка другой борт 0 → снимок
-wait 2 → ок
-pilot release → управление владельцу
-go berth 0 1 → к berth
-wait 8 → ок
-tap spy → нажато spy
-wait 2 → ок
-photo full труба без цели 0 → снимок
-fps 6 → замер
-wait 7 → ок
-tap spy → нажато spy
-wait 1 → ок
-auto on → автобой вкл
-view 0 14 62 1 → камера: угол 0 наклон 14 дист 62
-wait 30 → ок
-repair → флагман 100%
-near → Scout Ship на траверзе
-go near 0 0.6 → к near
-wait 6 → ок
-duel near → бой с near
-wait 8 → ок
-tap spy → нажато spy
-wait 2 → ок
-photo full труба с целью 1 → снимок
-wait 2 → ок
-fps 6 → замер
-wait 7 → ок
-photo full труба с целью 2 1 → снимок
-wait 1 → ок
-tap right → нажато right
-wait 2 → ок
-photo full труба залп 1 → снимок
-wait 2 → ок
-tap spy → нажато spy
-wait 2 → ок
-view 90 14 85 0.8 → камера: угол 90 наклон 14 дист 85
-wait 3 → ок
-photo full стрелка траверз 1 → снимок
-wait 2 → ок
-view -90 14 85 0.8 → камера: угол -90 наклон 14 дист 85
-wait 3 → ок
-photo full стрелка другой борт 1 → снимок
-wait 2 → ок
-pilot release → управление владельцу
-go berth 0 1 → к berth
-wait 8 → ок
-tap spy → нажато spy
-wait 2 → ок
-photo full труба без цели 1 → снимок
-fps 6 → замер
-wait 7 → ок
-tap spy → нажато spy
-wait 1 → ок
-auto on → автобой вкл
-view 0 14 62 1 → камера: угол 0 наклон 14 дист 62
-wait 30 → ок
-repair → флагман 100%
-near → Enemy 18 на траверзе
-go near 0 0.6 → к near
-wait 6 → ок
-duel near → бой с near
-wait 8 → ок
-tap spy → нажато spy
-wait 2 → ок
-photo full труба с целью 2 → снимок
-wait 2 → ок
-fps 6 → замер
-wait 7 → ок
-photo full труба с целью 2 2 → снимок
-wait 1 → ок
-tap right → нажато right
-wait 2 → ок
-photo full труба залп 2 → снимок
-wait 2 → ок
-tap spy → нажато spy
-wait 2 → ок
-view 90 14 85 0.8 → камера: угол 90 наклон 14 дист 85
-wait 3 → ок
-photo full стрелка траверз 2 → снимок
-wait 2 → ок
-view -90 14 85 0.8 → камера: угол -90 наклон 14 дист 85
-wait 3 → ок
-photo full стрелка другой борт 2 → снимок
-wait 2 → ок
-pilot release → управление владельцу
-go berth 0 1 → к berth
-wait 8 → ок
-tap spy → нажато spy
-wait 2 → ок
-photo full труба без цели 2 → снимок
-fps 6 → замер
-wait 7 → ок
-tap spy → нажато spy
-wait 1 → ок
-auto on → автобой вкл
-view 0 14 62 1 → камера: угол 0 наклон 14 дист 62
-wait 30 → ок
-repair → флагман 100%
 snap 0 → снимки по таймеру выкл
 report → отчёт отправлен
