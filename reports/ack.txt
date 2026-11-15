@@ -1,4 +1,4 @@
-команды #21 · 2026-11-15 20:18:27 · сборка 155
+команды #21 · 2026-11-15 21:04:59 · сборка 158
 play → меню → В БОЙ
 wait 6 → ок
 say ПРОВЕРКА ПРИЦЕЛА И ТРУБЫ ~7 МИН — НЕ ТРОГАЙ → показано
@@ -46,12 +46,12 @@ photo full автобой 0 → снимок
 wait 1 → ок
 auto off → автобой выкл
 repair → флагман 100%
-near → Target Ship на траверзе
+near → Raider Ship на траверзе
 go near 0 0.6 → к near
 wait 8 → ок
 photo full без цели — стрелки нет 1 → снимок
 wait 1 → ок
-lock near → цель: Enemy 9
+lock near → цель: Target Ship
 duel near → бой с near
 wait 8 → ок
 view 90 14 85 0.8 → камера: угол 90 наклон 14 дист 85
@@ -81,12 +81,12 @@ photo full автобой 1 → снимок
 wait 1 → ок
 auto off → автобой выкл
 repair → флагман 100%
-near → Enemy 11 на траверзе
+near → Enemy 10 на траверзе
 go near 0 0.6 → к near
 wait 8 → ок
 photo full без цели — стрелки нет 2 → снимок
 wait 1 → ок
-lock near → цель: Enemy 11
+lock near → цель: Enemy 10
 duel near → бой с near
 wait 8 → ок
 view 90 14 85 0.8 → камера: угол 90 наклон 14 дист 85
