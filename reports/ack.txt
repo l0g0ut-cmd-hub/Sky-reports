@@ -1,27 +1,47 @@
-команды #9 · 2026-11-15 15:27:29 · сборка 135
+команды #10 · 2026-11-15 16:29:08 · сборка 138
 tap row 0 → нажато row 0
 wait 1 → ок
-say АВТОЗАМЕР НОВОЙ СБОРКИ ~80 С, ПОТОМ ИГРАЮ — НЕ ТРОГАЙ → показано
-wait 85 → ок
+say ИГРАЮ ~5 МИН — НЕ СВОРАЧИВАЙ ДО «ГОТОВО» → показано
+wait 20 → ок
 tap row 0 → нажато row 0
 auto on → автобой вкл
-snap 8 → снимок каждые 8 с
+snap 10 → снимок каждые 10 с
 view 90 16 75 1 → камера: угол 90 наклон 16 дист 75
 wait 6 → ок
-photo full стрелка, борт справа → снимок
+photo full стрелка справа → снимок
 wait 1 → ок
 view -90 16 75 1 → камера: угол -90 наклон 16 дист 75
 wait 6 → ок
-photo full стрелка, борт слева → снимок
+photo full стрелка слева → снимок
 wait 1 → ок
-view 0 40 130 1 → камера: угол 0 наклон 40 дист 130
+view 180 20 90 1 → камера: угол 180 наклон 20 дист 90
 wait 5 → ок
-photo full стрелка сверху → снимок
+photo full стрелка сзади-сбоку → снимок
 wait 1 → ок
 view 0 14 62 1 → камера: угол 0 наклон 14 дист 62
-wait 20 → ок
-photo радар с HUD → снимок
+hud 0 → HUD скрыт
+cam height 8 → высота взгляда 8
+cam orbit me 0 6 90 → орбита me
 wait 1 → ок
+photo full облака у моря 0 → снимок
+wait 1 → ок
+cam orbit me 315 6 90 → орбита me
+wait 1 → ок
+photo full облака у моря 315 → снимок
+wait 1 → ок
+cam orbit me 135 6 90 → орбита me
+wait 1 → ок
+photo full облака у моря 135 → снимок
+wait 1 → ок
+cam off → камера обычная
+hud 1 → HUD виден
+fps 8 → замер
+wait 9.5 → ок
+all1km → врагов в 1 км: 18
+wait 12 → ок
+photo бой 18 рядом → снимок
+fps 8 → замер
+wait 9.5 → ок
 auto off → автобой выкл
 tap gear 4 → ход 4
 duel near → бой с near
@@ -29,7 +49,7 @@ view 90 14 85 0.8 → камера: угол 90 наклон 14 дист 85
 wait 7 → ок
 tap right → нажато right
 wait 0.2 → ок
-burst 8 0.15 залп правым 1 → серия 8 кадров
+burst 6 0.2 залп 1 → серия 6 кадров
 wait 1.5 → ок
 tap left → нажато left
 wait 3 → ок
@@ -40,10 +60,6 @@ tap right → нажато right
 wait 3 → ок
 spin 120 3 → облёт 120°
 wait 3.5 → ок
-tap right → нажато right
-wait 1.5 → ок
-tap left → нажато left
-wait 3 → ок
 photo full дуэль 1 → снимок
 wait 1 → ок
 duel near → бой с near
@@ -51,7 +67,7 @@ view 90 14 85 0.8 → камера: угол 90 наклон 14 дист 85
 wait 7 → ок
 tap right → нажато right
 wait 0.2 → ок
-burst 8 0.15 залп правым 2 → серия 8 кадров
+burst 6 0.2 залп 2 → серия 6 кадров
 wait 1.5 → ок
 tap left → нажато left
 wait 3 → ок
@@ -62,57 +78,13 @@ tap right → нажато right
 wait 3 → ок
 spin 120 3 → облёт 120°
 wait 3.5 → ок
-tap right → нажато right
-wait 1.5 → ок
-tap left → нажато left
-wait 3 → ок
 photo full дуэль 2 → снимок
 wait 1 → ок
-duel near → бой с near
-view 90 14 85 0.8 → камера: угол 90 наклон 14 дист 85
-wait 7 → ок
-tap right → нажато right
-wait 0.2 → ок
-burst 8 0.15 залп правым 3 → серия 8 кадров
-wait 1.5 → ок
-tap left → нажато left
-wait 3 → ок
-view -90 14 85 0.8 → камера: угол -90 наклон 14 дист 85
-tap left → нажато left
-wait 1.5 → ок
-tap right → нажато right
-wait 3 → ок
-spin 120 3 → облёт 120°
-wait 3.5 → ок
-tap right → нажато right
-wait 1.5 → ок
-tap left → нажато left
-wait 3 → ок
-photo full дуэль 3 → снимок
-wait 1 → ок
-tap ammo → нажато ammo
-duel near → бой с near
-wait 6 → ок
-tap right → нажато right
-wait 1.5 → ок
-tap left → нажато left
-wait 1.5 → ок
-tap ammo → нажато ammo
-tap ripple → нажато ripple
-tap right → нажато right
-wait 1.5 → ок
-tap left → нажато left
-wait 1.5 → ок
-tap ripple → нажато ripple
 pilot release → управление владельцу
 auto on → автобой вкл
-view 30 22 110 0.8 → камера: угол 30 наклон 22 дист 110
-wait 25 → ок
-spin 360 8 → облёт 360°
-wait 9 → ок
 view 0 14 62 1 → камера: угол 0 наклон 14 дист 62
-wait 15 → ок
-snap 0 → снимки по таймеру выкл
+wait 40 → ок
 fps 8 → замер
 wait 9.5 → ок
+snap 0 → снимки по таймеру выкл
 report → отчёт отправлен
