@@ -1,15 +1,15 @@
-МЕТКА: ошибка Unity · 2026-11-15 05:20:23
+МЕТКА: ошибка Unity · 2026-11-15 09:40:07
 === Небесный прилив · отладочный отчёт · ПОЛНЫЙ ===
-сборка 0.1.123 · samsung SM-G975F · Mali-G76 · Vulkan · 2280×1080 · ОЗУ 11423 МБ · Android Android OS 12 / API-31 (SP1A.210812.016/G975FXXSGHWC1)
+сборка 0.1.124 · samsung SM-G975F · Mali-G76 · Vulkan · 2280×1080 · ОЗУ 11423 МБ · Android Android OS 12 / API-31 (SP1A.210812.016/G975FXXSGHWC1)
 отправка отчётов: готово · конфиг: по умолчанию (код) · команды: ждём · обновление: не проверено
-время в бою 00:00 · FPS 50,0 · потолок 30 · ошибок 46 · предупреждений 0
+время в бою 00:00 · FPS 50,0 · потолок 30 · ошибок 3 · предупреждений 0
 облака рисованные · тени All 120 м · сумерки False · погода ЯСНО · ветер 0,99 294°
 флагман: корпус 100% · ход 0,0/40 · предел пушек 748 м · ядра · в прицеле False · решение True · автобой выкл
 враги (6):
-  Target Ship · 100% · 341 м · капитан НОВИЧОК · ход 0
+  Target Ship · 100% · 341 м · капитан БЫВАЛЫЙ · ход 0
   Scout Ship · 100% · 668 м · капитан НОВИЧОК · ход 0
-  Raider Ship · 100% · 744 м · капитан НОВИЧОК · ход 0
-  Enemy 4 · 100% · 2720 м · капитан БЫВАЛЫЙ · ход 0
+  Raider Ship · 100% · 744 м · капитан БЫВАЛЫЙ · ход 0
+  Enemy 4 · 100% · 2720 м · капитан ВЕТЕРАН · ход 0
   Enemy 5 · 100% · 2830 м · капитан БЫВАЛЫЙ · ход 0
   Enemy 6 · 100% · 2668 м · капитан БЫВАЛЫЙ · ход 0
 свои (4):
@@ -22,23 +22,23 @@
   ! в логе есть ошибки — см. ниже
 точность по сторонам:
 пересечения: нет
-отрисовка: вызовов 0 · пакетов 0 · SetPass 0 · треуг 0k · мусор/кадр н/д · память 233 МБ · частиц 2 · огней 71 · батарея 34,5°C 85%
+отрисовка: вызовов 0 · пакетов 0 · SetPass 0 · треуг 0k · мусор/кадр н/д · память 234 МБ · частиц 2 · огней 71 · батарея 28,2°C 97%
 сцена (легенда: x,y,z — от камеры, м; к — курс°; м — масштаб; д — дальность, м; э — место в кадре x,y 0..1, «—» вне кадра; LOD полн/лёг; тр — тыс. треугольников):
  кам -49,85,-35 (мир) к55 накл14 обзор55 орбита 0°/14° дист62
  кор СВОЙ Player Ship 49,-25,35 к55 д65 э0,50,0,36 LOD полн тр457 матросов 15
  кор враг Target Ship 309,-25,255 к195 д401 э0,46,0,68 LOD лёг тр59
  кор враг Scout Ship -371,-25,555 к295 м0,72 д667 э— LOD лёг тр59
  кор враг Raider Ship 689,-25,-345 к115 д771 э— LOD лёг тр59
- кор враг Enemy 4 -2151,-25,-1565 к84 д2660 э— LOD лёг тр59
- кор враг Enemy 5 2449,-25,1535 к218 д2890 э0,52,0,73 LOD лёг тр59
- кор враг Enemy 6 -551,-25,-2565 к241 м0,72 д2624 э— LOD лёг тр59
+ кор враг Enemy 4 -2151,-25,-1565 к323 д2660 э— LOD лёг тр59
+ кор враг Enemy 5 2449,-25,1535 к141 д2890 э0,52,0,73 LOD лёг тр59
+ кор враг Enemy 6 -551,-25,-2565 к15 м0,72 д2624 э— LOD лёг тр59
  кор союз Guard Ship 0 439,-25,710 к145 д835 э0,30,0,71 LOD лёг тр59
  кор союз Guard Ship 1 1659,-25,2823 к325 д3275 э0,29,0,73 LOD лёг тр59
  кор союз Wingman 159,-25,-35 к55 д165 э0,99,0,52 LOD лёг тр59
  кор союз Merchant 1849,-25,3152 к235 м0,85 д3655 э0,29,0,73 LOD лёг тр59
  крепость 1049,-25,1767 к77 д2055 э0,29,0,73 видна True причал д1177
 облака-спрайты: всего 146, включено 146, в кадре 32
- обл П 56,-76,268 ш243 д285 э0,06,0,72
+ обл П 56,-76,268 ш243 д285 э0,06,0,71
  обл П 105,-96,541 ш201 д559 э0,06,0,65
  обл П 122,-97,555 ш364 д576 э0,07,0,77
  обл П 106,-60,612 ш274 д624 э0,02,0,79
@@ -54,8 +54,8 @@
 HUD 2280×1080 безоп [107,0 2173×1080]: лев[1438,821 391×162] прав[1856,821 391×162] режим[1438,716 391×78] заряд[1856,716 391×78] автобой[1438,611 809×78] абордаж[885,848 367×97] труба[404,32 92×70] радар[139,130 292×292] ход[139,583 367×76] пауза[2156,32 92×81] FPS[139,32 238×70]
   перекрытия: нет (абордаж появляется только когда можно)
 настройки: Volumetric=— Fps60=— Haptics=— Sound=— Camera=— Buttons=— Zoom=— Ripple=— RadarNear=— HintsDone=—
-видеокарта по группам (видимых · тыс.треуг · с тенью): корабли 22·876k·14; экипаж 52·139k·24; облака 51·0k·0; крепость 3·139k·1;
-отрисовка: вызовов 0 · пакетов 0 · SetPass 0 · треуг 0k · мусор/кадр н/д · память 233 МБ · частиц 2 · огней 71 · батарея 34,5°C 85%
+видеокарта по группам (видимых · тыс.треуг · с тенью): корабли 22·876k·14; экипаж 52·139k·24; облака 51·0k·0; крепость 3·139k·0;
+отрисовка: вызовов 0 · пакетов 0 · SetPass 0 · треуг 0k · мусор/кадр н/д · память 234 МБ · частиц 2 · огней 71 · батарея 28,2°C 97%
 хроника каждые 10 с (x/z — мир в десятках м; состояния: БОЙ, ПОРТ, БЕГ, ДОЗОР, ИДЁТ, ПОМОЩЬ, РЕМОНТ):
  00:00 СВОЙ 0/0 100% | в1 26/22 100%  | разв -42/52 100%  | в2 64/-38 100%  | в4 -220/-160 100%  | в5 240/150 100%  | в6 -60/-260 100%  | СТО 39/68 100%  | СТО 161/279 100%  | ВЕД 11/-7 100%  | ТОР 240/416 100% 
 рывки > 60 мс (последние 12):
@@ -81,28 +81,6 @@ HUD 2280×1080 безоп [107,0 2173×1080]: лев[1438,821 391×162] прав
   00:00 СТОРОЖЕВОЙ ИДЁТ НА ВРАГА
   00:00 ВЕДОМЫЙ АТАКУЕТ
 ошибки и предупреждения:
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
-  00:00 Error: Not allowed to access colors on mesh 'Corsair' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:GetAllocArrayFromChannel(VertexAttribute, VertexAttributeFormat, Int32)
+  00:00 Error: Can't add component because class 'MeshCollider' doesn't exist! @ UnityEngine.GameObject:CreatePrimitive(PrimitiveType)
+  00:00 Error: Can't add component because class 'MeshCollider' doesn't exist! @ UnityEngine.GameObject:CreatePrimitive(PrimitiveType)
+  00:00 Error: Not allowed to access colors on mesh 'CorsairRepaired_shadow' (isReadable is false; Read/Write must be enabled in import settings) @ UnityEngine.Mesh:SetArrayForChannel(VertexAttribute, VertexAttributeFormat, Int32, T[], MeshUpdateFlags)
