@@ -1,40 +1,4 @@
-команды #23 · 2026-11-16 01:28:04 · сборка 166
+команды #24 · 2026-11-16 01:51:39 · сборка 167
 play → уже в бою
-wait 6 → ок
-say ПРОВЕРКА ~8 МИН — НЕ ТРОГАЙ, ОТМЕНА КНОПКОЙ → показано
-wait 2 → ок
-repair → флагман 100%
-hud 1 → HUD виден
-photo full гуи общий → снимок
-wait 2 → ок
-tap gear 0 → ход 0
-wait 1.5 → ок
-photo full телеграф 0 → снимок
-wait 1.5 → ок
-tap gear 1 → ход 1
-wait 1.5 → ок
-photo full телеграф 1 → снимок
-wait 1.5 → ок
-tap gear 2 → ход 2
-wait 1.5 → ок
-photo full телеграф 2 → снимок
-wait 1.5 → ок
-tap gear 3 → ход 3
-wait 1.5 → ок
-photo full телеграф 3 → снимок
-wait 1.5 → ок
-tap gear 4 → ход 4
-wait 1.5 → ок
-photo full телеграф 4 → снимок
-wait 1.5 → ок
-tap gear 3 → ход 3
-wait 1 → ок
-near → Target Ship на траверзе
-go near 0 0.6 → к near
-wait 8 → ок
-photo full без цели 0 → снимок
-wait 1 → ок
-lock near → цель: Target Ship
-duel near → бой с near
-wait 6 → ок
-ОТМЕНЕНО владельцем на: photo full рамка и упреждение 0
+wait 3 → ок
+ОТМЕНЕНО владельцем на: tap row 0
