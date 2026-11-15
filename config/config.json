@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "note": "базовые числа = как в коде (пакет 113)",
+  "playerSpeed": 40, "playerYaw": 50, "playerHealth": 540, "playerShellSpeed": 125, "playerElevation": 14, "playerCooldown": 2.2,
+  "enemyCount": 6,
+  "enemySpeed": 20, "enemyYaw": 24, "enemyRange": 420, "enemyError": 0.11, "enemySideError": 0.04, "enemyCooldown": 6,
+  "enemyHits": 30, "scoutHits": 16, "scoutSpeed": 27, "scoutRange": 360, "heavyChance": 0.22, "aggroRange": 1300, "enemyDamage": 6,
+  "allyCount": 4, "guardHits": 40, "wingmanHits": 34, "merchantHits": 20, "allyEngage": 750,
+  "autoRepairBelow": 0.35,
+  "weather": true, "boarding": true, "wind": true, "windMul": 1, "clearMinutesMin": 5, "clearMinutesMax": 8
+}
