@@ -1,30 +1,42 @@
-команды #1 · 2026-11-15 13:00:18 · сборка 125
-wait 40 → ок
-say A/B ЗАМЕР ~2,5 МИН — НЕ ТРОГАЙ, АВТОБОЙ ПУСТЬ ВОЮЕТ → показано
+команды #2 · 2026-11-15 13:01:46 · сборка 125
+say A/B ЗАМЕР ~3 МИН — НЕ ТРОГАЙ → показано
 wait 3 → ок
 fps 8 → замер
+wait 9.5 → ок
 set sharpen 0 → резкость False
 fps 8 → замер
+wait 9.5 → ок
 set sharpen 1 → резкость True
 fps 8 → замер
+wait 9.5 → ок
 set fortress 0 → крепость видна False
 fps 8 → замер
+wait 9.5 → ок
 set fortress 1 → крепость видна True
 fps 8 → замер
+wait 9.5 → ок
 set shadows 0 → тени Disable
 fps 8 → замер
+wait 9.5 → ок
 set shadows 2 → тени All
 fps 8 → замер
+wait 9.5 → ок
 set fx 0 → эффекты False
 fps 8 → замер
+wait 9.5 → ок
 set fx 1 → эффекты True
 fps 8 → замер
+wait 9.5 → ок
 set post 0 → пост False
 fps 8 → замер
+wait 9.5 → ок
 set post 1 → пост True
 fps 8 → замер
+wait 9.5 → ок
 set sharpen 0 → резкость False
 fps 8 → замер
+wait 9.5 → ок
 set sharpen 1 → резкость True
 fps 8 → замер
+wait 9.5 → ок
 say A/B ГОТОВО, ИГРАЙ → показано
