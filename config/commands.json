@@ -1,1 +1,1 @@
-{"id": 26, "expires": 1794833602, "cmds": ["rel", "where", "photo full старт сессии", "report"]}
+{"id": 27, "expires": 1794833706, "cmds": ["say УПРАВЛЯЕТ CLAUDE — ПРОВЕРКА ~15 МИН", "auto off", "hud 1", "rel", "where", "props", "photo full 01 старт", "wait 1", "props 1", "tap gear 2", "wait 4", "photo full 02 башня вблизи", "cam orbit me 0 200 10 120", "wait 2", "photo full 03 башня сбоку", "cam off", "pilot goto 0 0 0.6", "wait 15", "photo full 04 у башни ход", "report"]}
