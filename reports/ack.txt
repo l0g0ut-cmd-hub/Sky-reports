@@ -1,4 +1,91 @@
-команды #24 · 2026-11-16 01:51:39 · сборка 167
-play → уже в бою
+команды #25 · 2026-11-16 03:03:46 · сборка 172
+say ПРОВЕРКА ИНТЕРФЕЙСА ~6 МИН — НЕ ТРОГАЙ → показано
+wait 2 → ок
+repair → флагман 100%
+hud 1 → HUD виден
+auto off → автобой выкл
+tap gear 2 → ход 2
 wait 3 → ок
-ОТМЕНЕНО владельцем на: tap row 0
+photo full 01 бой без цели → снимок
+wait 1.5 → ок
+near → Target Ship на траверзе
+go near 0 0.6 → к near
+wait 8 → ок
+lock near → цель: Target Ship
+duel near → бой с near
+wait 6 → ок
+photo full 02 цель рамка упреждение → снимок
+wait 1.5 → ок
+tap right → нажато right
+wait 0.4 → ок
+photo full 03 правый перезарядка → снимок
+wait 1.5 → ок
+tap left → нажато left
+wait 0.4 → ок
+photo full 04 оба перезарядка → снимок
+wait 1.5 → ок
+wait 6 → ок
+photo full 05 борта готовы → снимок
+wait 1.5 → ок
+auto on → автобой вкл
+wait 4 → ок
+photo full 06 автобой вкл → снимок
+wait 1.5 → ок
+auto off → автобой выкл
+wait 1 → ок
+tap ammo → нажато ammo
+wait 1 → ок
+photo full 07 книппели → снимок
+wait 1.5 → ок
+tap ammo → нажато ammo
+wait 0.5 → ок
+tap mode → нажато mode
+wait 1 → ок
+photo full 08 весь борт → снимок
+wait 1.5 → ок
+tap mode → нажато mode
+wait 0.5 → ок
+tap spy → нажато spy
+wait 2.5 → ок
+photo full 09 труба → снимок
+wait 1.5 → ок
+tap spy → нажато spy
+wait 1 → ок
+tap gear 0 → ход 0
+wait 2 → ок
+photo full 10 назад → снимок
+wait 1.5 → ок
+tap gear 4 → ход 4
+wait 2 → ок
+photo full 11 полный → снимок
+wait 1.5 → ок
+hurt → флагман 0%
+wait 2 → ок
+photo full 12 корпус низкий → снимок
+wait 1.5 → ок
+repair → флагман 100%
+wait 1 → ок
+lock off → цель снята
+pilot release → управление владельцу
+go berth 0 0.5 → к berth
+wait 18 → ок
+tap gear 1 → ход 1
+wait 5 → ок
+photo full 13 причал ремонт → снимок
+wait 1.5 → ок
+pilot release → управление владельцу
+tap pause → нажато pause
+wait 1.5 → ок
+photo full 14 меню паузы → снимок
+wait 1.5 → ок
+tap row 6 → нажато row 6
+wait 3 → ок
+photo full 15 главное меню → снимок
+wait 1.5 → ок
+play → меню → В БОЙ
+wait 5 → ок
+hud 1 → HUD виден
+photo full 16 после возврата в бой → снимок
+wait 1.5 → ок
+snap 0 → снимки по таймеру выкл
+report → отчёт отправлен
